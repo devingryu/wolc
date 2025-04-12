@@ -1,0 +1,81 @@
+{
+    "common": {
+      "appName": "WOLC",
+      "add": "추가",
+      "edit": "수정",
+      "delete": "삭제",
+      "save": "저장",
+      "saving": "저장 중...",
+      "cancel": "취소",
+      "confirm": "확인",
+      "deleting": "삭제 중...",
+      "manage": "관리",
+      "defaultValue": "기본값",
+      "error": "오류 발생",
+      "unknownError": "알 수 없는 오류"
+    },
+    "header": {
+      "addNewDevice": "새 장치 추가"
+    },
+    "deviceList": {
+      "loading": "장치 목록을 불러오는 중...",
+      "noDevices": "저장된 장치가 없습니다",
+      "noDevicesDescription": "WOL 패킷을 보낼 장치를 추가해주세요.",
+      "addNewDevice": "새 장치 추가"
+    },
+    "deviceCard": {
+      "sendWol": "WOL 전송",
+      "manageMenu": "관리 메뉴",
+      "defaultTargetAddrTooltip": "255.255.255.255"
+    },
+    "addEditDialog": {
+      "title": {
+        "add": "새 장치 추가",
+        "edit": "장치 정보 수정"
+      },
+      "description": {
+        "add": "새 장치의 정보를 입력해주세요.",
+        "edit": "{{name}} 장치의 정보를 수정합니다."
+      },
+      "label": {
+        "name": "이름",
+        "mac": "MAC 주소",
+        "targetAddr": "대상 주소"
+      },
+      "placeholder": {
+        "mac": "00:11:22:AA:BB:CC",
+        "targetAddr": "255.255.255.255"
+      }
+    },
+    "deleteDialog": {
+      "title": "장치 삭제 확인",
+      "description": "`{{name}}` 장치를 정말 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다."
+    },
+    "toast": {
+      "wol": {
+        "sendSuccessTitle": "WOL 패킷 전송 성공",
+        "sendSuccessDescription": "MAC 주소 {{mac}}(으)로 WOL 패킷을 전송했습니다.",
+        "sendFailTitle": "전송 실패",
+        "sendFailDescription": "MAC 주소를 입력해주세요."
+      },
+      "device": {
+        "saveFailTitle": "저장 실패",
+        "saveFailDescription": "장치 이름과 MAC 주소를 입력해주세요.",
+        "addSuccessTitle": "장치 추가 완료",
+        "addSuccessDescription": "{{name}} 장치가 추가되었습니다.",
+        "updateSuccessTitle": "장치 수정 완료",
+        "updateSuccessDescription": "{{name}} 장치 정보가 수정되었습니다.",
+        "deleteSuccessTitle": "장치 삭제 완료",
+        "deleteSuccessDescription": "{{name}} 장치가 삭제되었습니다."
+      },
+      "errorDescription": "{{context}} 중 오류가 발생했습니다: {{errorMessage}}"
+    },
+    "errorContext": {
+      "loadDevices": "장치 목록 로드",
+      "sendWol": "WOL 패킷 전송 (MAC: {{mac}})",
+      "addDevice": "장치 추가",
+      "updateDevice": "장치 수정",
+      "deleteDevice": "장치 삭제"
+    }
+  }
+  

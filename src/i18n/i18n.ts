@@ -1,0 +1,26 @@
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+
+import ko from "./ko.json";
+
+const resources = {
+  en: {
+    translation: ko,
+  },
+  ko: {
+    translation: ko,
+  },
+};
+
+i18n.use(initReactI18next).init({
+  resources,
+  // lng: localStorage.getItem("language") || userLanguage || "en",
+  lng: "en",
+  fallbackLng: "en",
+//   keySeparator: false,
+//   interpolation: {
+//     escapeValue: false,
+//   },
+});
+
+export default i18n;

@@ -1,0 +1,81 @@
+{
+    "common": {
+      "appName": "WOLC",
+      "add": "Add",
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "deleting": "Deleting...",
+      "manage": "Manage",
+      "defaultValue": "Default",
+      "error": "Error Occurred",
+      "unknownError": "Unknown error"
+    },
+    "header": {
+      "addNewDevice": "Add New Device"
+    },
+    "deviceList": {
+      "loading": "Loading device list...",
+      "noDevices": "No saved devices",
+      "noDevicesDescription": "Please add a device to send WOL packets.",
+      "addNewDevice": "Add New Device"
+    },
+    "deviceCard": {
+      "sendWol": "Send WOL",
+      "manageMenu": "Manage Menu",
+      "defaultTargetAddrTooltip": "255.255.255.255"
+    },
+    "addEditDialog": {
+      "title": {
+        "add": "Add New Device",
+        "edit": "Edit Device Information"
+      },
+      "description": {
+        "add": "Please enter the new device's information.",
+        "edit": "Editing information for {{name}}."
+      },
+      "label": {
+        "name": "Name",
+        "mac": "MAC Address",
+        "targetAddr": "Target Address"
+      },
+      "placeholder": {
+        "mac": "00:11:22:AA:BB:CC",
+        "targetAddr": "255.255.255.255"
+      }
+    },
+    "deleteDialog": {
+      "title": "Confirm Device Deletion",
+      "description": "Are you sure you want to delete `{{name}}`? This action cannot be undone."
+    },
+    "toast": {
+      "wol": {
+        "sendSuccessTitle": "WOL Packet Sent Successfully",
+        "sendSuccessDescription": "WOL packet sent to MAC address {{mac}}.",
+        "sendFailTitle": "Send Failed",
+        "sendFailDescription": "Please enter the MAC address."
+      },
+      "device": {
+        "saveFailTitle": "Save Failed",
+        "saveFailDescription": "Please enter the device name and MAC address.",
+        "addSuccessTitle": "Device Added Successfully",
+        "addSuccessDescription": "{{name}} device has been added.",
+        "updateSuccessTitle": "Device Updated Successfully",
+        "updateSuccessDescription": "{{name}} device information has been updated.",
+        "deleteSuccessTitle": "Device Deleted Successfully",
+        "deleteSuccessDescription": "{{name}} device has been deleted."
+      },
+      "errorDescription": "Error during {{context}}: {{errorMessage}}"
+    },
+    "errorContext": {
+      "loadDevices": "Loading devices",
+      "sendWol": "Sending WOL packet (MAC: {{mac}})",
+      "addDevice": "Adding device",
+      "updateDevice": "Updating device",
+      "deleteDevice": "Deleting device"
+    }
+  }
+  
