@@ -26,7 +26,8 @@
     "deviceCard": {
       "sendWol": "Send WOL",
       "manageMenu": "Manage Menu",
-      "defaultTargetAddrTooltip": "255.255.255.255"
+      "defaultTargetAddrTooltip": "255.255.255.255",
+      "portLabel": "Port"
     },
     "addEditDialog": {
       "title": {
@@ -40,11 +41,13 @@
       "label": {
         "name": "Name",
         "mac": "MAC Address",
-        "targetAddr": "Target Address"
+        "targetAddr": "Target Address",
+        "port": "Port"
       },
       "placeholder": {
         "mac": "00:11:22:AA:BB:CC",
-        "targetAddr": "255.255.255.255"
+        "targetAddr": "255.255.255.255",
+        "port": "9"
       }
     },
     "deleteDialog": {

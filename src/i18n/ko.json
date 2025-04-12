@@ -26,7 +26,8 @@
     "deviceCard": {
       "sendWol": "WOL 전송",
       "manageMenu": "관리 메뉴",
-      "defaultTargetAddrTooltip": "255.255.255.255"
+      "defaultTargetAddrTooltip": "255.255.255.255",
+      "portLabel": "포트"
     },
     "addEditDialog": {
       "title": {
@@ -40,11 +41,13 @@
       "label": {
         "name": "이름",
         "mac": "MAC 주소",
-        "targetAddr": "대상 주소"
+        "targetAddr": "대상 주소",
+        "port": "포트"
       },
       "placeholder": {
         "mac": "00:11:22:AA:BB:CC",
-        "targetAddr": "255.255.255.255"
+        "targetAddr": "255.255.255.255",
+        "port": "9"
       }
     },
     "deleteDialog": {
