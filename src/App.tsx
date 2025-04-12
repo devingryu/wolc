@@ -23,7 +23,7 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { MoreHorizontal, PlusCircle, Power, Trash2, Edit, WifiOff, Loader2, Network, Target, PlugZap } from 'lucide-react';
+import { MoreHorizontal, PlusCircle, Power, Trash2, Edit, WifiOff, Loader2, Network, Target } from 'lucide-react';
 
 import { Toaster, toast } from 'sonner';
 
