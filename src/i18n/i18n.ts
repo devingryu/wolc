@@ -1,5 +1,6 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import LanguageDetector from 'i18next-browser-languagedetector';
 
 import en from "./en.json";
 import ko from "./ko.json";
@@ -13,11 +14,11 @@ const resources = {
   },
 };
 
-i18n.use(initReactI18next).init({
+i18n.use(initReactI18next).use(LanguageDetector).init({
+  debug: true,
+  supportedLngs: ['ko', 'en'],
   resources,
-  // lng: localStorage.getItem("language") || userLanguage || "en",
-  lng: "en",
-  fallbackLng: "en",
+  fallbackLng: "ko",
 //   keySeparator: false,
 //   interpolation: {
 //     escapeValue: false,
